@@ -1,7 +1,8 @@
 (ns koan-4clojure.core
   (:gen-class))
 
-(defn -main
-  "I don't do a whole lot ... yet."
-  [& args]
-  (println "Hello, World!"))
+; #36 Can you bind x, y, and z so that these are all true?
+
+(= 4 (let [y 3 z 1]  (+ y z)))
+(= 10 (let [x 7 y 3] (+ x y)))
+#_ [x 7 y 3 z 1]
