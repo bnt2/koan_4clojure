@@ -1,6 +1,6 @@
 # koan_4clojure
 
-FIXME: description
+To help fledgling clojurians learn the language through interactive problems.
 
 ## Installation
 
