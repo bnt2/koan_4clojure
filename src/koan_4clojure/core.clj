@@ -34,3 +34,5 @@ Write a function which packs consecutive duplicates into sub-lists.(partition-by
 (= 4 (let [y 3 z 1]  (+ y z)))
 (= 10 (let [x 7 y 3] (+ x y)))
 #_ [x 7 y 3 z 1]
+
+[1 2 3]
