@@ -36,3 +36,11 @@ Write a function which packs consecutive duplicates into sub-lists.(partition-by
 #_ [x 7 y 3 z 1]
 
 [1 2 3]
+
+
+(= "ABC" (apply str (re-seq #"[A-Z]+" "bA1B3Ce ")))
+
+Write a function which takes a variable number of parameters and returns the maximum value.
+(= ( 1 8 3 4) 8)
+(= (__ 30 20) 30)
+(= (__ 45 67 11) 67)
